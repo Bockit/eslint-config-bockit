@@ -1,0 +1,1 @@
+Modelled after airbnb's config

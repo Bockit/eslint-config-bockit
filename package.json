@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-bockit",
+  "version": "1.0.0",
+  "description": "My ESLint config base",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bockit/eslint-config-bockit.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide",
+    "bockit"
+  ],
+  "author": "James Hiscock <james@jameshiscock.com> (http://jameshiscock.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bockit/eslint-config-bockit/issues"
+  },
+  "homepage": "https://github.com/bockit/eslint-config-bockit#readme"
+}
