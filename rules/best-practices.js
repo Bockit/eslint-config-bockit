@@ -1,118 +1,118 @@
 module.exports = {
     "rules": {
         // Enforces getter/setter pairs in objects
-        "accessor-pairs": 0
+        "accessor-pairs": [ 2, "getWithoutSet": true ],
         // treat var statements as if they were block scoped
-        "block-scoped-var": 0
+        "block-scoped-var": 0,
         // specify the maximum cyclomatic complexity allowed in a program
-        "complexity": 0
+        "complexity": 0,
         // require return statements to either always or never specify values
-        "consistent-return": 0
+        "consistent-return": 2,
         // specify curly brace conventions for all control statements
-        "curly": 0
+        "curly": [ 2, "multi-or-nest" ],
         // require default case in switch statements
-        "default-case": 0
+        "default-case": 0,
         // enforces consistent newlines before or after dots
-        "dot-location": 0
+        "dot-location": 0,
         // encourages use of dot notation whenever possible
-        "dot-notation": 0
+        "dot-notation": 0,
         // require the use of === and !== (fixable)
-        "eqeqeq": 0
+        "eqeqeq": [ 2, "smart" ],
         // make sure for-in loops have an if statement
-        "guard-for-in": 0
+        "guard-for-in": 0,
         // disallow the use of alert, confirm, and prompt
-        "no-alert": 0
+        "no-alert": 2,
         // disallow use of arguments.caller or arguments.callee
-        "no-caller": 0
+        "no-caller": 2,
         // disallow division operators explicitly at beginning of regular expression
-        "no-div-regex": 0
+        "no-div-regex": 0,
         // disallow else after a return in an if
-        "no-else-return": 0
+        "no-else-return": 2,
         // disallow use of labels for anything other than loops and switches
-        "no-empty-label": 0
+        "no-empty-label": 2,
         // disallow use of empty destructuring patterns
-        "no-empty-pattern": 0
+        "no-empty-pattern": 2,
         // disallow comparisons to null without a type-checking operator
-        "no-eq-null": 0
+        "no-eq-null": 0,
         // disallow use of eval()
-        "no-eval": 0
+        "no-eval": 2,
         // disallow adding to native types
-        "no-extend-native": 0
+        "no-extend-native": 2,
         // disallow unnecessary function binding
-        "no-extra-bind": 0
+        "no-extra-bind": 2,
         // disallow fallthrough of case statements (recommended)
-        "no-fallthrough": 0
+        "no-fallthrough": 2,
         // disallow the use of leading or trailing decimal points in numeric literals
-        "no-floating-decimal": 0
+        "no-floating-decimal": 2,
         // disallow the type conversions with shorter notations
-        "no-implicit-coercion": 0
+        "no-implicit-coercion": 0,
         // disallow use of eval()-like methods
-        "no-implied-eval": 0
+        "no-implied-eval": 2,
         // disallow this keywords outside of classes or class-like objects
-        "no-invalid-this": 0
+        "no-invalid-this": 0,
         // disallow usage of __iterator__ property
-        "no-iterator": 0
+        "no-iterator": 2,
         // disallow use of labeled statements
-        "no-labels": 0
+        "no-labels": 2,
         // disallow unnecessary nested blocks
-        "no-lone-blocks": 0
+        "no-lone-blocks": 2,
         // disallow creation of functions within loops
-        "no-loop-func": 0
+        "no-loop-func": 0,
         // disallow the use of magic numbers
-        "no-magic-numbers": 0
+        "no-magic-numbers": 0,
         // disallow use of multiple spaces (fixable)
-        "no-multi-spaces": 0
+        "no-multi-spaces": 2,
         // disallow use of multiline strings
-        "no-multi-str": 0
+        "no-multi-str": 2,
         // disallow reassignments of native objects
-        "no-native-reassign": 0
+        "no-native-reassign": 0,
         // disallow use of new operator for Function object
-        "no-new-func": 0
-        // disallows creating new instances of String,Number, and Boolean
-        "no-new-wrappers": 0
+        "no-new-func": 2,
+        // disallows creating new instances of String, Number, and Boolean
+        "no-new-wrappers": 2,
         // disallow use of the new operator when not part of an assignment or comparison
-        "no-new": 0
+        "no-new": 2,
         // disallow use of octal escape sequences in string literals, such as var foo = "Copyright \251";
-        "no-octal-escape": 0
+        "no-octal-escape": 2,
         // disallow use of octal literals (recommended)
-        "no-octal": 0
+        "no-octal": 2,
         // disallow reassignment of function parameters
-        "no-param-reassign": 0
+        "no-param-reassign": 0,
         // disallow use of process.env
-        "no-process-env": 0
+        "no-process-env": 0,
         // disallow usage of __proto__ property
-        "no-proto": 0
+        "no-proto": 2,
         // disallow declaring the same variable more than once (recommended)
-        "no-redeclare": 0
+        "no-redeclare": 0,
         // disallow use of assignment in return statement
-        "no-return-assign": 0
+        "no-return-assign": 2,
         // disallow use of javascript: urls.
-        "no-script-url": 0
+        "no-script-url": 2,
         // disallow comparisons where both sides are exactly the same
-        "no-self-compare": 0
+        "no-self-compare": 2,
         // disallow use of the comma operator
-        "no-sequences": 0
+        "no-sequences": 2,
         // restrict what can be thrown as an exception
-        "no-throw-literal": 0
+        "no-throw-literal": 2,
         // disallow usage of expressions in statement position
-        "no-unused-expressions": 0
+        "no-unused-expressions": 2,
         // disallow unnecessary .call() and .apply()
-        "no-useless-call": 0
+        "no-useless-call": 0,
         // disallow unnecessary concatenation of literals or template literals
-        "no-useless-concat": 0
+        "no-useless-concat": 0,
         // disallow use of the void operator
-        "no-void": 0
+        "no-void": 0,
         // disallow usage of configurable warning terms in comments - e.g. TODO or FIXME
-        "no-warning-comments": 0
+        "no-warning-comments": 1,
         // disallow use of the with statement
-        "no-with": 0
+        "no-with": 2,
         // require use of the second argument for parseInt()
-        "radix": 0
+        "radix": 2,
         // require declaration of all vars at the top of their containing scope
-        "vars-on-top": 0
+        "vars-on-top": 0,
         // require immediate function invocation to be wrapped in parentheses
-        "wrap-iife": 0
+        "wrap-iife": [ 2, "inside" ],
         // require or disallow Yoda conditions
-        "yoda": 0
+        "yoda": 2,
     }
 }

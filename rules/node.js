@@ -8,7 +8,7 @@ module.exports = {
         // enforce require() on top-level module scope
         "global-require": 0,
         // enforce error handling in callbacks
-        "handle-callback-err": 0,
+        "handle-callback-err": [ 2, "^(err|error|e)$" ],
         // disallow mixing regular variable and require declarations
         "no-mixed-requires": 0,
         // disallow use of new operator with the require function
@@ -20,6 +20,6 @@ module.exports = {
         // restrict usage of specified node modules
         "no-restricted-modules": 0,
         // disallow use of synchronous methods
-        "no-sync": 0
+        "no-sync": 0,
     }
 }

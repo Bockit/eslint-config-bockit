@@ -1,60 +1,60 @@
 module.exports = {
     "rules": {
         // disallow or enforce trailing commas (recommended)
-        "comma-dangle": 0,
+        "comma-dangle": [ 2, "always-multiline" ],
         // disallow assignment in conditional expressions (recommended)
         "no-cond-assign": 0,
         // disallow use of console in the node environment (recommended)
-        "no-console": 0,
+        "no-console": 1,
         // disallow use of constant expressions in conditions (recommended)
         "no-constant-condition": 0,
         // disallow control characters in regular expressions (recommended)
-        "no-control-regex": 0,
+        "no-control-regex": 2,
         // disallow use of debugger (recommended)
-        "no-debugger": 0,
+        "no-debugger": 1,
         // disallow duplicate arguments in functions (recommended)
-        "no-dupe-args": 0,
+        "no-dupe-args": 2,
         // disallow duplicate keys when creating object literals (recommended)
-        "no-dupe-keys": 0,
+        "no-dupe-keys": 2,
         // disallow a duplicate case label. (recommended)
-        "no-duplicate-case": 0,
+        "no-duplicate-case": 2,
         // disallow the use of empty character classes in regular expressions (recommended)
-        "no-empty-character-class": 0,
+        "no-empty-character-class": 2,
         // disallow empty statements (recommended)
-        "no-empty": 0,
+        "no-empty": 2,
         // disallow assigning to the exception in a catch block (recommended)
-        "no-ex-assign": 0,
+        "no-ex-assign": 2,
         // disallow double-negation boolean casts in a boolean context (recommended)
-        "no-extra-boolean-cast": 0,
+        "no-extra-boolean-cast": 2,
         // disallow unnecessary parentheses
-        "no-extra-parens": 0,
+        "no-extra-parens": 2,
         // disallow unnecessary semicolons (recommended) (fixable)
-        "no-extra-semi": 0,
+        "no-extra-semi": 2,
         // disallow overwriting functions written as function declarations (recommended)
-        "no-func-assign": 0,
+        "no-func-assign": 2,
         // disallow function or variable declarations in nested blocks (recommended)
         "no-inner-declarations": 0,
         // disallow invalid regular expression strings in the RegExp constructor (recommended)
-        "no-invalid-regexp": 0,
+        "no-invalid-regexp": 2,
         // disallow irregular whitespace outside of strings and comments (recommended)
-        "no-irregular-whitespace": 0,
+        "no-irregular-whitespace": 2,
         // disallow negation of the left operand of an in expression (recommended)
-        "no-negated-in-lhs": 0,
+        "no-negated-in-lhs": 2,
         // disallow the use of object properties of the global object (Math and JSON) as functions (recommended)
-        "no-obj-calls": 0,
+        "no-obj-calls": 2,
         // disallow multiple spaces in a regular expression literal (recommended)
-        "no-regex-spaces": 0,
+        "no-regex-spaces": 2,
         // disallow sparse arrays (recommended)
-        "no-sparse-arrays": 0,
+        "no-sparse-arrays": 2,
         // Avoid code that looks like two expressions but is actually one
         "no-unexpected-multiline": 0,
         // disallow unreachable statements after a return, throw, continue, or break statement (recommended)
-        "no-unreachable": 0,
+        "no-unreachable": 2,
         // disallow comparisons with the value NaN (recommended)
-        "use-isnan": 0,
+        "use-isnan": 2,
         // Ensure JSDoc comments are valid
-        "valid-jsdoc": 0,
+        "valid-jsdoc": 2,
         // Ensure that the results of typeof are compared against a valid string (recommended)
-        "valid-typeof": 0
+        "valid-typeof": 2,
     }
 }
