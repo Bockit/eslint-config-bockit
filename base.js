@@ -4,5 +4,5 @@ module.exports = {
         "eslint-config-bockit/rules/es6",
     ],
     "parser": "babel-eslint",
-    "rules": {}
+    "rules": {},
 }

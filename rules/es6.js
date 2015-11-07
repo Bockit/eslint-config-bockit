@@ -1,7 +1,7 @@
 module.exports = {
     "env": {
         // We want to explicitly enable/disable es6 features
-        "es6": false
+        "es6": false,
     },
     "ecmaFeatures": {
         // enable arrow functions
@@ -51,7 +51,7 @@ module.exports = {
         // enable JSX
         "jsx": false,
     },
-    "rules":{
+    "rules": {
         // require braces in arrow function
         "arrow-body-style": [ 2, "as-needed" ],
         // require parens in arrow function arguments
@@ -84,11 +84,9 @@ module.exports = {
         "prefer-spread": 2,
         // suggest using Reflect methods where applicable
         "prefer-reflect": 0,
-        // suggest using the spread operator instead of .apply()
-        "prefer-spread": 2,
         // suggest using template literals instead of strings concatenation
         "prefer-template": 2,
         // disallow generator functions that do not have yield
         "require-yield": 0,
-    }
+    },
 }

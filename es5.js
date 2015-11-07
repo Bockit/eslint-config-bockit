@@ -6,7 +6,7 @@ module.exports = {
         "eslint-config-bockit/rules/node",
         "eslint-config-bockit/rules/strict",
         "eslint-config-bockit/rules/style",
-        "eslint-config-bockit/rules/variables"
+        "eslint-config-bockit/rules/variables",
     ],
     "env": {
         "browser": true,
@@ -14,5 +14,5 @@ module.exports = {
     },
     "ecmaFeatures": {},
     "globales": {},
-    "rules": {}
+    "rules": {},
 }

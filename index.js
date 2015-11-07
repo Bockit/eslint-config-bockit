@@ -3,5 +3,5 @@ module.exports = {
     "eslint-config-bockit/base",
     "eslint-config-bockit/rules/react",
   ],
-  "rules": {}
+  "rules": {},
 }

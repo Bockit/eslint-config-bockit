@@ -12,5 +12,5 @@ module.exports = {
         "no-bitwise": 0,
         // disallow use of unary operators, ++ and --
         "no-plusplus": 0,
-    }
+    },
 }

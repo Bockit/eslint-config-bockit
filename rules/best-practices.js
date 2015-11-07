@@ -114,5 +114,5 @@ module.exports = {
         "wrap-iife": [ 2, "inside" ],
         // require or disallow Yoda conditions
         "yoda": 2,
-    }
+    },
 }

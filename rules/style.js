@@ -1,7 +1,7 @@
 module.exports = {
     "rules": {
         // enforce spacing inside array brackets (fixable)
-        "array-bracket-spacing": 2,
+        "array-bracket-spacing": [ 2, "always" ],
         // disallow or enforce spaces inside of single line blocks (fixable)
         "block-spacing": [ 2, "always" ],
         // enforce one true brace style
@@ -116,5 +116,5 @@ module.exports = {
         "spaced-comment": [ 2, "always" ],
         // require regex literals to be wrapped in parentheses
         "wrap-regex": 0,
-    }
+    },
 }

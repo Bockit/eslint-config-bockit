@@ -56,5 +56,5 @@ module.exports = {
         "valid-jsdoc": 2,
         // Ensure that the results of typeof are compared against a valid string (recommended)
         "valid-typeof": 2,
-    }
+    },
 }
