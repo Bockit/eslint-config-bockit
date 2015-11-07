@@ -31,7 +31,7 @@ module.exports = {
         // specify whether double or single quotes should be used in JSX attributes
         "jsx-quotes": [ 2, "prefer-double" ],
         // enforce spacing between keys and values in object literal properties
-        "key-spacing": [ 2, { "beforeColon": false, "afterColon": true } ]
+        "key-spacing": [ 2, { "beforeColon": false, "afterColon": true } ],
         // disallow mixed 'LF' and 'CRLF' as linebreaks
         "linebreak-style": 2,
         // enforce empty lines around comments
@@ -39,7 +39,7 @@ module.exports = {
         // specify the maximum depth callbacks can be nested
         "max-nested-callbacks": 0,
         // require a capital letter for constructors
-        "new-cap": [ 2, { "newIsCap": true, "capIsNew": false } ]
+        "new-cap": [ 2, { "newIsCap": true, "capIsNew": false } ],
         // disallow the omission of parentheses when invoking a constructor with no arguments
         "new-parens": 2,
         // require or disallow an empty newline after variable declarations
@@ -85,7 +85,7 @@ module.exports = {
         // enforce padding within blocks
         "padded-blocks": [ 2, "never" ],
         // require quotes around object literal property names
-        "quote-props": [ 2. "consistent-as-needed" ],
+        "quote-props": [ 2, "consistent-as-needed" ],
         // specify whether backticks, double or single quotes should be used (fixable)
         "quotes": [ 2, "single", "avoid-escape" ],
         // Require JSDoc comment
