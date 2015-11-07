@@ -1,8 +1,8 @@
 {
-    "extends": [
-        "bockit/base"
-    ],
-    "rules": {
-        "max-len": 0 // this repo is an exception
-    }
+	"extends": [
+		"bockit/base"
+	],
+	"rules": {
+		"max-len": 0 // this repo is an exception
+	}
 }
