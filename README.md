@@ -1,1 +1,1 @@
-Modelled after airbnb's config
+Modelled after airbnb eslint config repository, my own settings though.
