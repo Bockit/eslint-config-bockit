@@ -14,7 +14,7 @@ module.exports = {
 		// Enforce boolean attributes notation in JSX
 		'react/jsx-boolean-value': 2,
 		// Validate closing bracket location in JSX
-		'react/jsx-closing-bracket-location': [ 2, 'tag-aligned' ],
+		'react/jsx-closing-bracket-location': [ 2, 'after-props' ],
 		// Enforce or disallow spaces inside of curly braces in JSX attributes
 		'react/jsx-curly-spacing': [ 2, 'never' ],
 		// Validate props indentation in JSX
@@ -38,7 +38,7 @@ module.exports = {
 		// Prevent React to be incorrectly marked as unused
 		'react/jsx-uses-react': 2,
 		// Prevent variables used in JSX to be incorrectly marked as unused
-		'react/jsx-uses-vars': 0,
+		'react/jsx-uses-vars': 2,
 		// Prevent usage of dangerous JSX properties
 		'react/no-danger': 0,
 		// Prevent usage of setState in componentDidMount
@@ -66,6 +66,6 @@ module.exports = {
 		// Enforce component methods order
 		'react/sort-comp': 0,
 		// Prevent missing parentheses around multilines JSX
-		'react/wrap-multilines': 0,
+		'react/wrap-multilines': 2,
 	},
 }

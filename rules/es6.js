@@ -53,7 +53,7 @@ module.exports = {
 	},
 	rules: {
 		// require braces in arrow function
-		'arrow-body-style': [ 2, 'as-needed' ],
+		'arrow-body-style': 0, // I want [ 2, 'as-needed' ], but buggy.
 		// require parens in arrow function arguments
 		'arrow-parens': 2,
 		// require space before/after arrow function's arrow

@@ -21,7 +21,7 @@ module.exports = {
 		// require function expressions to have a name
 		'func-names': 0,
 		// enforce use of function declarations or expressions
-		'func-style': [ 2, 'expression', { allowArrowFunctions: true } ],
+		'func-style': [ 2, 'declaration', { allowArrowFunctions: true } ],
 		// this option enforces minimum and maximum identifier lengths (variable names, property names etc.)
 		'id-length': 0,
 		// require identifiers to match the provided regular expression
