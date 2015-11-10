@@ -71,7 +71,7 @@ module.exports = {
 		// disallow trailing whitespace at the end of lines (fixable)
 		'no-trailing-spaces': 2,
 		// disallow dangling underscores in identifiers
-		'no-underscore-dangle': 2,
+		'no-underscore-dangle': 0,
 		// disallow the use of ternary operators when a simpler alternative exists
 		'no-unneeded-ternary': 2,
 		// require or disallow padding inside curly braces (fixable)
@@ -81,7 +81,7 @@ module.exports = {
 		// require assignment operator shorthand where possible or prohibit it entirely
 		'operator-assignment': 0,
 		// enforce operators to be placed before or after line breaks
-		'operator-linebreak': [ 2, 'before', { overrides: { '?': 'after' } } ],
+		'operator-linebreak': [ 2, 'after', { overrides: { '?': 'before' } } ],
 		// enforce padding within blocks
 		'padded-blocks': [ 2, 'never' ],
 		// require quotes around object literal property names
