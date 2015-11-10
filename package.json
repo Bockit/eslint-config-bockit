@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bockit",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "My ESLint config base",
   "main": "index.js",
   "scripts": {
